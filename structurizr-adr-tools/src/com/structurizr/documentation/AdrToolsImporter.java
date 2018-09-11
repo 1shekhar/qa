@@ -56,6 +56,10 @@ public class AdrToolsImporter {
     public void setTimeZone(TimeZone timeZone) {
         this.timeZone = timeZone;
     }
+    
+     public void setTimeZone2(TimeZone timeZone) {
+        this.timeZone = timeZone;
+    }
 
     public Set<Decision> importArchitectureDecisionRecords() throws Exception {
         return importArchitectureDecisionRecords(null);
